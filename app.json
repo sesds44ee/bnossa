@@ -1,0 +1,29 @@
+{
+  "name": "Git Gift Codes Urls BoT",
+  "description": "simple Bot That Can Get The urls of Gift Codes",
+  "keywords": ["Accounts Control", "telegram", "bot", "pyrogram"],
+  "env": {
+    "API_ID": {
+      "description": "Your API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API HASH",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "ADMIN": {
+      "description": "ID of the admin account",
+      "required": true
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
